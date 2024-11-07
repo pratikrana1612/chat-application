@@ -16,3 +16,8 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+authentication is not working with pow for intial conversation and user so we can see working application with pubsub when someone send message it will be seen to every different socket connection with pubusub
+- Run `mix run priv/repo/seeds.exs` for intial conversation and users
+![image](https://github.com/user-attachments/assets/8d346bc1-2ea9-45a5-841d-50b91ef3dfde)
+
